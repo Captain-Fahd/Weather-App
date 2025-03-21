@@ -1,0 +1,48 @@
+@font-face {
+    font-family: BodyFont;
+    src: url("/res/Fredoka-VariableFont_wdth,wght.ttf");
+}
+body {
+    font-family: BodyFont;
+    background-color: #14014a;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.main{
+    vertical-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+.input-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.weather-input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.submit-btn{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #63e04c;
+}
