@@ -14,12 +14,13 @@ body {
 }
 
 .main{
+    display: flex;
     align-content: space-evenly;
     justify-content: start;
     text-align: left;
     background-color: white;
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 300px;
     border-radius: 20px;
 }
 .input-heading{
@@ -28,11 +29,12 @@ body {
     flex-direction: column;
     justify-content: start;
     padding: 20px;
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
 }
+/* TODO: FIX MAIN DIV ANIMATION*/
 .weather-input{
-    width: 50%;
+    width: 200px;
     height: 30px;
     border-radius: 10px;
     border: 1px black solid;
