@@ -9,40 +9,50 @@ body {
     vertical-align: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10%;
 }
 
 .main{
-    vertical-align: center;
-    align-content: center;
-    justify-content: center;
+    align-content: space-evenly;
+    justify-content: start;
+    text-align: left;
     background-color: white;
     width: 600px;
     height: 500px;
     border-radius: 20px;
 }
 .input-heading{
+    vertical-align: top;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: start;
     padding: 20px;
-    font-size: 32px;
+    font-size: 50px;
     text-align: left;
-    margin-bottom: 20px;
 }
 .weather-input{
     width: 50%;
     height: 30px;
     border-radius: 10px;
     border: 1px black solid;
+    padding-left: 13px;
+    align-self: center;
+    margin-top: 20px;
 }
 .submit-btn{
+    align-self: center;
     margin-top: 20px;
     font-size: 20px;
     width: 30%;
     height: 40px;
     border-radius: 20px;
-    border-style: none;
+    border: none;
     background-color: #63e04c;
+    transition: background-color 0.2s;
+}
+.submit-btn:hover{
+    background-color: white;
+    transition: background-color 0.2s;
+
 }
